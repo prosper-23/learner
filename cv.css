@@ -1,0 +1,103 @@
+*{
+  margin: 0%;
+}
+body{
+  width: 100%;
+}
+
+.profile{
+  background-color: blueviolet;
+  display: flex;
+  height: 110mm;
+  width: 100%;
+}
+.name{
+  font-size:30px;
+  position: absolute;
+  top: 20mm;
+  left: 97mm;
+}
+img{
+  margin-top: 15px;
+  width: 90mm;
+  height: 90mm;
+  border-radius: 50%;
+}
+figcaption{
+  text-align: center;
+  padding:5px;
+  color: white;
+  font-size: 10mm;
+}
+.paths{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  color: black;
+  font-size: 50px;
+  font-family: monospace;
+  text-decoration: none;
+  padding-top:20px;
+}
+/*.headerlink{
+  color: black;
+  display:flex;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+.sml1{
+  top: 50%;
+  position: absolute;
+  left: 1%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.sml2{
+  top: 50%;
+  position: absolute;
+  left: 40%;
+  padding-left: 50px;
+  padding-right: 10px;
+}
+.sml3{
+  margin-left: 50px;
+  top: 50%;
+  position: absolute;
+  left: 80%;
+}*/
+
+.tab{
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+}
+
+table, th, td{
+  padding-top: 30px;
+  padding-left: 10px;
+  width: 100%;
+}
+th, td{
+  width: 33.3333%;
+}
+th{
+  text-align: left;
+  padding-left: 40px;
+}
+/*#fam{
+  text-align: left;
+  padding-left: 40px;
+}*/ 
+
+
+.favs{
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.favorite{
+  display: flex;
+  justify-content: space-evenly;
+}
