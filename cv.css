@@ -101,3 +101,26 @@ th{
 .favorite{
   display: flex;
   justify-content: space-evenly;
+}
+
+/*schools css*/
+.skl{
+  padding: 40px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center ;
+}
+#PL{
+  text-align: center;
+  
+}
+#se{
+  text-align: center
+}
+#OL{
+  text-align: center;
+}
+#AL{
+  text-align: center;
+}
