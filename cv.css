@@ -17,13 +17,13 @@ body{
   top: 20mm;
   left: 97mm;
 }
-img{
+.prof{
   margin-top: 15px;
   width: 90mm;
   height: 90mm;
   border-radius: 50%;
 }
-figcaption{
+.cap{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   padding:5px;
@@ -122,5 +122,26 @@ th{
   text-align: center;
 }
 #AL{
+  text-align: center;
+}
+p{
+  margin-left: 5%;
+}
+ul{
+  margin: 5%;
+  color: rgba(188, 71, 209, 1);
+}
+
+/*certificates*/
+.english{
+   background-color: rgba(51, 232, 54, 1)
+ }
+.eng{
+  width: 250mm;
+  height: 170mm;
+  margin: 5mm;
+  margin-bottom: 1mm;
+}
+.captions{
   text-align: center;
 }
