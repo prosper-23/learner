@@ -102,6 +102,13 @@ th{
   display: flex;
   justify-content: space-evenly;
 }
+/*anchor css*/
+a :active{
+  color: blue;
+}
+a ::after{
+  color: blue;
+}
 
 /*schools css*/
 .skl{
@@ -143,5 +150,7 @@ ul{
   margin-bottom: 1mm;
 }
 .captions{
+  font-style: 300px;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
